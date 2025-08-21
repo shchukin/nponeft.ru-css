@@ -36,16 +36,15 @@
             vertical-align: baseline;
             padding-top: 6px;
             padding-bottom: 6px;
-            text-decoration: 1px underline rgba(0 102 153 / 0.5);
+            text-decoration: 1px underline rgba(0 102 153 / 50%);
             text-underline-offset: 3px;
             color: #006699;
-            /*white-space: nowrap;*/
             transition: text-decoration-color var(--transition-hover),
                         color var(--transition-hover);
         }
 
         .breadcrumbs__link:hover {
-            text-decoration-color: rgba(204 0 0 / 0.5);
+            text-decoration-color: rgba(204 0 0 / 50%);
             color: #CC0000;
         }
 

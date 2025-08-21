@@ -1,7 +1,7 @@
 :root {
     --font: "Cuprum", sans-serif;
-    /*--body-font-size: 16px;*/
-    /*--body-line-height: 22px;*/
+    --body-font-size: 16px;
+    --body-line-height: 22px;
     --ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1);
     --transition-hover: 100ms ease;
     --transition-show: 1200ms var(--ease-out-quint);
