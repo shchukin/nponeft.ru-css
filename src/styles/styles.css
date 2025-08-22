@@ -19,11 +19,15 @@
 @import url("_tabs.css");
 @import url("_file-link.css");
 
-/*@import url("_link.css");*/
+@import url("_oboznach.css");
+@import url("_harakt.css");
+@import url("_rght.css");
+
+@import url("_link.css");
 /*@import url("_button.css");*/
 /*@import url("_input.css");*/
 /*@import url("_choice.css");*/
-/*@import url("_wysiwyg.css");*/
+@import url("_wysiwyg.css");
 /*@import url("_label.css");*/
 /*@import url("_helper.css");*/
 

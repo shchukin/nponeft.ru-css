@@ -1,0 +1,17 @@
+.harakt {
+    width: 100%;
+    border: 1px solid #999999;
+    color: #666666;
+}
+
+.harakt thead {
+    font-weight: normal;
+    font-size: 15px;
+    color: #333333;
+}
+
+.harakt tr td {
+    padding: 4px;
+    line-height: 15px;
+}
+
