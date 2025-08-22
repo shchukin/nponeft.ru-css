@@ -37,6 +37,7 @@
     .header__secondary {
         padding-top: 6px;
         padding-bottom: 7px;
+        background-color: #FFFFFF;
     }
         .header__secondary-wrap {
             display: flex;
@@ -135,7 +136,6 @@
             top: 0;
             padding-top: 0;
             padding-bottom: 0;
-            background-color: #FFFFFF;
         }
             .header__secondary-wrap {
                 /*display: flex;*/
