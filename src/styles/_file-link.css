@@ -1,0 +1,21 @@
+.file-link {
+    display: flex;
+    width: fit-content;
+    gap: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #0A72AE;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.file-link:hover {
+    color: #CC0000;
+}
+    .file-link__icon {
+        margin-top: -1px;
+        margin-bottom: 1px;
+        vertical-align: top;
+    }

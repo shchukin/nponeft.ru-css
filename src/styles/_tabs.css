@@ -2,17 +2,19 @@
 
 }
     .tabs__navigation {
-
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
     }
         .tabs__tag {
             cursor: pointer;
+            white-space: nowrap;
         }
 
         .tabs__tag--current {
             background-color: #00B144;
             cursor: default;
         }
-
     .tabs__bodies {
 
     }
@@ -23,3 +25,30 @@
         .tabs__body--current {
             display: block;
         }
+
+
+
+
+
+/* Если в табах есть .tabs__addition: */
+
+.tabs__addition {
+    margin-left: auto;
+}
+
+
+/* Если в табах есть .tabs__addition и четёртая таба: */
+
+.tabs:has(.tabs__addition):has(.tabs__tag:nth-child(4)) {
+
+}
+    .tabs:has(.tabs__addition):has(.tabs__tag:nth-child(4)) .tabs__navigation {
+        position: relative;
+        padding-top: 40px;
+    }
+
+    .tabs:has(.tabs__addition):has(.tabs__tag:nth-child(4)) .tabs__addition {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
