@@ -80,5 +80,5 @@
     .tabs:has(.tabs__addition):has(.tabs__tag:nth-child(4)) .tabs__addition {
         position: absolute;
         right: 0;
-        top: 0;
+        top: -10px;
     }
