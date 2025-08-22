@@ -1,3 +1,8 @@
+.wysiwyg--enlarged {
+    --body-font-size: 18px;
+    --body-line-height: 26px;
+}
+
 .wysiwyg {
     overflow-wrap: break-word;
     font-size: var(--body-font-size);

@@ -5,7 +5,8 @@
     .catalog__navigation {
         display: grid;
         grid-template-columns: repeat(3, minmax(0, 1fr));
-        gap: 30px 20px;
+        gap: 40px 0;
+        justify-content: space-evenly;
     }
         .catalog__link {
             display: block;
@@ -19,7 +20,7 @@
             }
                 .catalog__image {
                     vertical-align: top;
-                    width: 160px;
+                    width: 174px;
                     height: auto;
                     transition: transform 400ms var(--ease-out-quint);
                 }
@@ -30,6 +31,9 @@
 
             .catalog__label {
                 margin-top: 12px;
+                max-width: 200px;
+                margin-left: auto;
+                margin-right: auto;
                 font-size: 18px;
                 line-height: 24px;
                 color: #333333;

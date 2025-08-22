@@ -5,7 +5,6 @@
     .grade__gallery {
         display: flex;
         align-items: flex-start;
-        justify-content: center;
         gap: 24px;
     }
         .grade__preview {
