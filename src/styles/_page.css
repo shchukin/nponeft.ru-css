@@ -20,3 +20,43 @@
     .page__footer {
 
     }
+
+
+
+@media (width < 740px) {
+
+    .page {
+        /*min-height: 100%;*/
+        /*display: flex;*/
+        /*flex-direction: column;*/
+    }
+        .page__body {
+            /*flex-grow: 1;*/
+            /*background-color: #DEE2E9;*/
+            background-image: none;
+            /*background-size: 1920px 535px;*/
+            /*background-repeat: repeat-y;*/
+            /*background-position: center top;*/
+        }
+
+        .page__body--homepage {
+            /*background-color: #FFFFFF;*/
+            /*background-image: none;*/
+        }
+
+        .page__footer {
+
+        }
+
+
+        .burger-expanded .page__body {
+            background-color: #2C56A2;
+        }
+
+        .burger-expanded .page__footer {
+            display: none;
+        }
+}
+
+
+

@@ -32,6 +32,7 @@
 /*@import url("_window.css");*/
 /*@import url("_login.css");*/
 
+@import url("_intro.css");
 @import url("_catalog.css");
 @import url("_category.css");
 @import url("_product.css");
@@ -45,4 +46,4 @@
 @import url("_grade.css");
 @import url("_suppliers.css");
 @import url("_page.css");
-@import url("_intro.css");
+@import url("_main.css");

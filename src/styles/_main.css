@@ -1,0 +1,10 @@
+.main {
+
+}
+
+@media (width < 740px) {
+
+    .burger-expanded .main {
+        display: none;
+    }
+}
