@@ -1,0 +1,33 @@
+.suppliers {
+    padding-top: 24px;
+    padding-bottom: 40px;
+}
+    .suppliers__illustration {
+        float: right;
+    }
+
+    .suppliers__content {
+
+    }
+
+
+
+@media (width < 740px) {
+
+    .suppliers {
+        /*padding-top: 24px;*/
+        /*padding-bottom: 40px;*/
+    }
+        .suppliers__illustration {
+            display: block;
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+            float: none;
+        }
+
+        .suppliers__content {
+            margin-top: -24px;
+        }
+}
+
