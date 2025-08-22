@@ -2,8 +2,37 @@
 
 }
     .header__primary {
-
+        background-color: #2C56A2;
     }
+        .header__primary-wrap {
+            position: relative;
+        }
+            .header__nav {
+                display: flex;
+                align-items: flex-start;
+                padding-bottom: 4px;
+                margin-left: -14px;
+            }
+                .header__link {
+                    font-weight: bold;
+                    padding: 14px;
+                    font-size: 16px;
+                    line-height: 22px;
+                    color: #FFFFFF;
+                    text-decoration: 2px underline #C3CCE3;
+                    text-underline-offset: 4px;
+                }
+
+                .header__link:hover {
+                    text-decoration-thickness: 1px;
+                }
+
+            .header__search {
+                position: absolute;
+                right: 0;
+                top: 16px;
+            }
+
 
     .header__secondary {
         padding-top: 6px;
@@ -74,11 +103,29 @@
 @media (width < 740px) {
 
     .header {
-        min-height: var(--header-height-mobile);
+        min-height: var(--header-height);
     }
         .header__primary {
-
+            padding-bottom: 80px;
+            display: none;
         }
+            .header__primary-wrap {
+
+            }
+                .header__nav {
+                    padding-top: 20px;
+                    width: fit-content;
+                    display: flex;
+                    flex-direction: column;
+                }
+                    .header__link {
+                        width: 100%;
+                    }
+
+                .header__search {
+                    position: static;
+                    margin-top: 30px;
+                }
 
         .header__secondary {
             position: fixed;
@@ -195,7 +242,18 @@
                         cursor: pointer;
                     }
 
-                    .burger-expanded .header__burger {
-                        background-image: url("../vectors/menu-close.svg");
-                    }
+        .burger-expanded {
+
+        }
+            .burger-expanded .header {
+                padding-top: var(--header-height);
+            }
+
+            .burger-expanded .header__burger {
+                background-image: url("../vectors/menu-close.svg");
+            }
+
+            .burger-expanded .header__primary {
+                display: block;
+            }
 }
