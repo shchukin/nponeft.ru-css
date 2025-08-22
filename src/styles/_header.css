@@ -74,15 +74,21 @@
 @media (width < 740px) {
 
     .header {
-
+        min-height: var(--header-height-mobile);
     }
         .header__primary {
 
         }
 
         .header__secondary {
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            right: 0;
+            top: 0;
             padding-top: 0;
             padding-bottom: 0;
+            background-color: #FFFFFF;
         }
             .header__secondary-wrap {
                 /*display: flex;*/
