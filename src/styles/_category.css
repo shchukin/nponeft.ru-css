@@ -57,3 +57,78 @@
             right: -187px;
             top: 17px;
         }
+
+
+
+@media (width < 740px) {
+
+    .category {
+        /*padding-top: 16px;*/
+        padding-bottom: 60px;
+        display: flex;
+        flex-direction: column;
+    }
+        .category__docs {
+            order: 2;
+            width: fit-content;
+            margin-top: 32px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .category__description {
+            order: 3;
+            /*margin-top: 24px;*/
+        }
+
+        .category__summary {
+            order: 1;
+            margin-top: 0;
+            /*position: relative;*/
+        }
+            .category__navigation {
+                /*position: relative;*/
+                display: block;
+                /*align-items: stretch;*/
+                /*background-color: #EEF0F4;*/
+                /*border-radius: 5px;*/
+                border-left: none;
+                margin-left: calc(-1 * (var(--inner-padding) + (1/2 * var(--container-padding))));
+                margin-right: calc(-1 * (var(--inner-padding) + (1/2 * var(--container-padding))));
+                box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+                border-radius: 3px;
+            }
+                .category__half {
+                    width: auto;
+                    /*padding-top: 30px;*/
+                    /*padding-bottom: 30px;*/
+                }
+
+                .category__half:first-child {
+                    /*background-color: #E4E4E4;*/
+                    border-top-left-radius: 3px;
+                    border-top-right-radius: 3px;
+                }
+                    .category__link {
+                        /*display: block;*/
+                        /*width: fit-content;*/
+                        padding-left: calc(var(--inner-padding) + (1/2 * var(--container-padding)));
+                        padding-right: calc(var(--inner-padding) + (1/2 * var(--container-padding)));
+                        /*font-size: 16px;*/
+                        /*line-height: 20px;*/
+                        /*color: #666666;*/
+                        /*text-decoration: 1px underline rgba(102 102 102 / 50%);*/
+                        /*text-underline-offset: 3px;*/
+                        /*transition: color var(--transition-hover),*/
+                        /*            text-decoration-color var(--transition-hover);*/
+                    }
+
+                    .category__link:hover {
+                        /*text-decoration-color: rgba(204 0 0 / 50%);*/
+                        /*color: #CC0000;*/
+                    }
+
+            .category_illustration {
+                display: none;
+            }
+}
