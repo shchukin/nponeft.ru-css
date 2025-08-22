@@ -1,0 +1,25 @@
+.tabs {
+
+}
+    .tabs__navigation {
+
+    }
+        .tabs__tag {
+            cursor: pointer;
+        }
+
+        .tabs__tag--current {
+            background-color: #00B144;
+            cursor: default;
+        }
+
+    .tabs__bodies {
+
+    }
+        .tabs__body {
+            display: none;
+        }
+
+        .tabs__body--current {
+            display: block;
+        }

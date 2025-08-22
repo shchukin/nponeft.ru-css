@@ -17,7 +17,7 @@
         }
             .book__sidebar {
                 padding-top: 30px;
-                padding-bottom: 30px;
+                padding-bottom: 40px;
                 background-color: #EFF0F4;
                 border-top-left-radius: 3px;
                 border-bottom-left-radius: 3px;
@@ -99,6 +99,14 @@
                 background-repeat: no-repeat;
                 background-position: center center;
             }
+                .book__heading {
+                    margin-top: 0;
+                    margin-bottom: 0;
+                    padding: 45px 40px 40px;
+                    font-weight: normal;
+                    font-size: 44px;
+                    line-height: 50px;
+                }
 
 
 
