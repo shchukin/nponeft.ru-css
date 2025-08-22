@@ -5,3 +5,14 @@
     margin-left: 33px;
     padding-bottom: 30px;
 }
+
+@media (width < 740px) {
+    .rght {
+        float: none;
+        display: block;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 0;
+    }
+}

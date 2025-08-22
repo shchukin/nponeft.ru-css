@@ -1,0 +1,12 @@
+.scrollable-on-smartphone {
+    margin-left: calc(-1 * var(--inner-padding));
+    margin-right: calc(-1 * var(--inner-padding));
+    padding-left: var(--inner-padding);
+    padding-right: var(--inner-padding);
+}
+
+@media (width < 740px) {
+    .scrollable-on-smartphone {
+        overflow-x: scroll;
+    }
+}

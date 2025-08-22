@@ -7,6 +7,7 @@
     --transition-show: 1200ms var(--ease-out-quint);
     --image-fallback: #F3F5F4;
     --container-padding: 40px;
+    --inner-padding: 40px;
     /*--action-color: #0D7FC5;*/
     /*--action-color-hover: #2FA5ED;*/
     /*--input-border: #B3B3B3;*/
@@ -19,12 +20,14 @@
 
 @media (350px <= width < 740px) {
     :root {
-        --container-padding: 24px;
+        --container-padding: 16px;
+        --inner-padding: 16px;
     }
 }
 
 @media (width < 350px) {
     :root {
-        --container-padding: 16px;
+        --container-padding: 12px;
+        --inner-padding: 12px;
     }
 }

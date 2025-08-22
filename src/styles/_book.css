@@ -82,7 +82,7 @@
                 position: relative;
                 height: calc(100% + 5px);
                 margin-top: -5px;
-                padding: 45px 40px 0;
+                padding: 45px var(--inner-padding) 0;
                 background-color: #FFFFFF;
                 border-top-left-radius: 3px;
                 border-top-right-radius: 3px;
@@ -198,11 +198,10 @@
 
                 .book__content {
                     /*position: relative;*/
-                    /*margin-top: -5px;*/
-                    /*height: calc(100% + 5px);*/
+                    margin-top: 0;
+                    padding-top: 24px;
+                    height: auto;
                     /*background-color: #FFFFFF;*/
-                    /*border-top-left-radius: 3px;*/
-                    /*border-top-right-radius: 3px;*/
                     border-radius: 3px;
                 }
 
@@ -218,5 +217,17 @@
                     /*background-repeat: no-repeat;*/
                     /*background-position: center center;*/
                 }
+                    .book__heading {
+                        /*margin-top: 0;*/
+                        /*margin-bottom: 0;*/
+                        /*font-weight: normal;*/
+                        font-size: 24px;
+                        line-height: 28px;
+                        /*color: #000000;*/
+                    }
+
+                    .book__page {
+
+                    }
 }
 
