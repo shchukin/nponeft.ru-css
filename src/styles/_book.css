@@ -82,7 +82,7 @@
                 position: relative;
                 height: calc(100% + 5px);
                 margin-top: -5px;
-                padding: 45px 40px 40px;
+                padding: 45px 40px 0;
                 background-color: #FFFFFF;
                 border-top-left-radius: 3px;
                 border-top-right-radius: 3px;
@@ -110,7 +110,7 @@
                 }
 
                 .book__page {
-                    margin-top: 35px;
+
                 }
 
 

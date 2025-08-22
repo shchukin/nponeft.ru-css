@@ -15,10 +15,6 @@
 @import url("_nobr.css");
 @import url("_hide-scrollbar.css");
 
-@import url("_book.css");
-@import url("_tabs.css");
-@import url("_file-link.css");
-
 @import url("_oboznach.css");
 @import url("_harakt.css");
 @import url("_rght.css");
@@ -35,3 +31,9 @@
 /*@import url("_window.css");*/
 /*@import url("_login.css");*/
 
+@import url("_category.css");
+@import url("_product.css");
+
+@import url("_book.css");
+@import url("_tabs.css");
+@import url("_file-link.css");
