@@ -12,6 +12,11 @@
         background-position: center top;
     }
 
+    .page__body--homepage {
+        background-color: #FFFFFF;
+        background-image: none;
+    }
+
     .page__footer {
 
     }
