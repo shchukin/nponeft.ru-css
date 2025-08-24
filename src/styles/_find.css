@@ -1,0 +1,70 @@
+.find {
+    display: flex;
+    align-items: flex-start;
+    gap: 7px;
+}
+    .find__widget {
+        vertical-align: top;
+        flex-shrink: 0;
+        flex-grow: 1;
+        height: 28px;
+        padding: 5px 6px;
+        background-color: #456AB0; /* reset grey background in some cases, such as <select> */
+        background-clip: padding-box; /* hack for iOS to make box-shadow works (same as border-radius in the past) */
+        box-shadow: inset 1px 1px 3px rgb(0 0 0 / 50%);
+        border: none;
+        outline: none;
+        border-radius: 0;
+        font-family: inherit;
+        font-size: 14px; /* not less than 16px (otherwise mobile browsers will zoom in on focus) */
+        line-height: 18px;
+        color: #FFFFFF;
+        opacity: 1; /* reset select:disabled default fade on iOS */
+        -webkit-tap-highlight-color: transparent;
+        transition: background-color var(--transition-hover),
+        border-color var(--transition-hover);
+    }
+
+
+    .find__widget::placeholder {
+        opacity: 1; /* reset opacity drop Firefox */
+        color: #899DC8;
+    }
+
+    .find__widget:hover {
+        box-shadow: inset 0 0 1px 1px rgb(255 255 255 / 50%);
+    }
+
+    .find__widget:focus-visible {
+        box-shadow: inset 0 0 1px 1px #FFFFFF;
+        transition: none;
+    }
+
+
+    .find__submit {
+        flex-shrink: 0;
+        width: 28px;
+        height: 28px;
+        border: none;
+        padding: 0;
+        background-color: #204081;
+        background-image: url("../vectors/magnifier.svg");
+        background-size: 12px 12px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        text-indent: 200%;
+        white-space: nowrap;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    .find__submit:hover {
+        background-image: url("../vectors/magnifier.svg"), linear-gradient(#315490, #234280);
+        background-size: 12px 12px, 100% 100%;
+    }
+
+    .find__submit:active {
+        background-color: #204081;
+        background-image: url("../vectors/magnifier.svg"), linear-gradient(#1E427E, #2D4F88);
+        box-shadow: inset 0 1px 2px rgb(0 0 0 / 50%);
+    }
