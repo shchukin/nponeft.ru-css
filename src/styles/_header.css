@@ -79,10 +79,6 @@
                     line-height: 34px;
                     color: #000000;
                 }
-                    .header__code {
-                        font-size: 18px;
-                        line-height: 24px;
-                    }
 
                 .header__email {
                     display: block;
@@ -145,13 +141,9 @@
                         line-height: 34px;
                         color: #FFFFFF;
                     }
-                        .header__mobile-code {
-                            font-size: 18px;
-                            line-height: 24px;
-                        }
 
                     .header__mobile-email {
-                        margin-top: 12px;
+                        margin-top: 18px;
                         display: block;
                         width: fit-content;
                         font-size: 16px;
@@ -229,10 +221,6 @@
                         text-indent: 200%;
                         overflow: hidden;
                     }
-                        .header__code {
-                            /*font-size: 18px;*/
-                            /*line-height: 24px;*/
-                        }
 
                     .header__email {
                         /*display: block;*/
