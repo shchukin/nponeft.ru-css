@@ -1,0 +1,59 @@
+.contacts {
+    padding-top: 32px;
+    padding-bottom: 60px;
+}
+    .contacts__address {
+        display: flex;
+        align-items: flex-start;
+        gap: 92px;
+        font-size: 16px;
+        line-height: 22px;
+        color: #000000;
+    }
+        .contacts__address-heading {
+            text-transform: uppercase;
+        }
+
+        .contacts__address-value {
+
+        }
+
+    .contacts__channels {
+        margin-top: 32px;
+        display: flex;
+        align-items: flex-start;
+    }
+        .contacts__email {
+            display: flex;
+            align-items: flex-start;
+            gap: 43px;
+            font-size: 16px;
+            line-height: 22px;
+            color: #666666;
+        }
+
+        .contacts__question {
+            position: relative;
+            margin-left: 44px;
+            padding-left: 44px;
+        }
+            .contacts__question::before {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 2px;
+                width: 1px;
+                height: 18px;
+                background-color: #666666;
+            }
+
+    .contacts__factory {
+        margin-top: 32px;
+    }
+        .contacts__factory-heading {
+            color: #000000;
+        }
+
+        .contacts__factory-widget {
+            margin-top: 16px;
+        }
