@@ -1,0 +1,16 @@
+.net-room {
+    font-size: 14px;
+    line-height: 18px;
+    color: #6F8BC6;
+}
+    .net-room__link {
+        margin-left: 4px;
+        font-size: 16px;
+        color: #FFFFFF;
+        text-decoration: 1px underline rgba(111 139 198 / 50%);
+        text-underline-offset: 2px;
+    }
+
+    .net-room__link:hover {
+        text-decoration-color: transparent;
+    }

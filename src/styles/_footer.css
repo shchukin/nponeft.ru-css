@@ -1,4 +1,47 @@
 .footer {
-    height: 99px;
+    padding-top: 25px;
+    padding-bottom: 34px;
     background-color: #2B55A1;
 }
+    .footer__wrap {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+        .footer__info {
+            display: flex;
+            align-items: flex-start;
+            gap: 6px;
+        }
+            .footer__logo {
+                display: flex;
+                align-items: center;
+                padding-left: 50px;
+                height: 40px;
+                background-image: url("../images/logofooter.png");
+                background-size: 42px 40px;
+                background-repeat: no-repeat;
+                font-size: 16px;
+                line-height: 17px;
+                color: #B4C3ED;
+                white-space: nowrap;
+                text-decoration: none;
+            }
+
+            .footer__copyright {
+                margin-top: 2px;
+                font-size: 16px;
+                line-height: 17px;
+                color: #B4C3ED;
+            }
+
+        .footer__developers {
+
+        }
+            .footer__net-room {
+
+            }
+
+            .footer__red-star {
+
+            }
