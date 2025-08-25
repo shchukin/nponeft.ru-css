@@ -134,6 +134,8 @@
 .catalog--home {
     /*padding-top: 24px;*/
     /*padding-bottom: 100px;*/
+    padding-left: 20px;
+    padding-right: 20px;
 }
     .catalog--home .catalog__navigation {
         display: flex;
@@ -201,11 +203,11 @@
     .catalog--home {
         /*padding-top: 24px;*/
         /*padding-bottom: 100px;*/
+        padding-left: 8px;
+        padding-right: 8px;
     }
         .catalog--home .catalog__navigation {
             display: grid;
-            padding-left: 8px;
-            padding-right: 8px;
             grid-template-columns: repeat(2, minmax(0, 1fr));
             /*gap: 40px 0;*/
             /*justify-content: space-evenly;*/

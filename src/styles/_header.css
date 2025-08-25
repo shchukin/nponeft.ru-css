@@ -6,6 +6,8 @@
     }
         .header__primary-wrap {
             position: relative;
+            padding-left: 32px;
+            padding-right: 32px;
         }
             .header__nav {
                 display: flex;
@@ -29,7 +31,7 @@
 
             .header__search {
                 position: absolute;
-                right: 0;
+                right: 22px;
                 top: 13px;
                 width: 220px;
             }
@@ -47,6 +49,8 @@
         .header__secondary-wrap {
             display: flex;
             align-items: flex-start;
+            padding-left: 20px;
+            padding-right: 20px;
         }
             .header__logo {
                 display: flex;
@@ -69,7 +73,7 @@
             .header__actions {
                 margin-left: auto;
                 margin-top: 2px;
-                margin-right: 66px;
+                margin-right: 70px;
             }
                 .header__phone {
                     display: block;
@@ -112,7 +116,8 @@
             display: none;
         }
             .header__primary-wrap {
-
+                padding-left: 0;
+                padding-right: 0;
             }
                 .header__nav {
                     padding-top: 20px;
@@ -165,6 +170,8 @@
             .header__secondary-wrap {
                 /*display: flex;*/
                 /*align-items: flex-start;*/
+                padding-left: 0;
+                padding-right: 0;
             }
 
             .header__secondary-wrap.container {
