@@ -44,6 +44,8 @@
     .header__secondary {
         padding-top: 6px;
         padding-bottom: 7px;
+        border-bottom: 4px solid #E3E9F3;
+        box-shadow: 0 4px 4px rgb(0 0 0 / 10%);
         background-color: #FFFFFF;
     }
         .header__secondary-wrap {
@@ -166,6 +168,8 @@
             top: 0;
             padding-top: 0;
             padding-bottom: 0;
+            border-bottom: none;
+            box-shadow: 0 2px 2px rgb(0 0 0 / 10%);
         }
             .header__secondary-wrap {
                 /*display: flex;*/
