@@ -30,29 +30,19 @@
 @media (width < 740px) {
 
     .intro {
-        /*padding-top: 16px;*/
-        /*padding-bottom: 24px;*/
-        /*background-color: #3B4A83;*/
         background-image: url("../images/images_main.jpg");
         background-size: auto 100%;
-        /*background-repeat: no-repeat;*/
         background-position: calc(50% - 440px) center;
-        /*color: #FFFFFF;*/
     }
         .intro__wrap {
             padding-left: 0;
             padding-right: 0;
         }
             .intro__heading {
-                /*margin-top: 0;*/
-                /*margin-bottom: 0;*/
-                /*font-weight: bold;*/
-                /*font-size: 26px;*/
-                /*line-height: 34px;*/
+
             }
 
             .intro__description {
-                /*margin-top: 12px;*/
-                /*max-width: 746px;*/
+
             }
 }

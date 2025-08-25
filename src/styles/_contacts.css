@@ -85,15 +85,9 @@
 
     .contacts {
         padding-top: 16px;
-        /*padding-bottom: 60px;*/
     }
         .contacts__address {
             display: block;
-            /*align-items: flex-start;*/
-            /*gap: 92px;*/
-            /*font-size: 16px;*/
-            /*line-height: 22px;*/
-            /*color: #000000;*/
         }
             .contacts__address-heading {
                 text-transform: none;
@@ -110,11 +104,6 @@
         }
             .contacts__email {
                 display: block;
-                /*align-items: flex-start;*/
-                /*gap: 43px;*/
-                /*font-size: 16px;*/
-                /*line-height: 22px;*/
-                /*color: #666666;*/
             }
                 .contacts__email-heading {
                     font-weight: bold;
@@ -127,7 +116,6 @@
 
             .contacts__question {
                 margin-top: 24px;
-                /*position: relative;*/
                 margin-left: 0;
                 padding-left: 0;
                 margin-bottom: 0;
@@ -152,6 +140,6 @@
 
 
             .contacts__factory-widget {
-                /*margin-top: 24px;*/
+
             }
 }

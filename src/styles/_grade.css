@@ -29,14 +29,10 @@
 @media (width < 740px) {
 
     .grade {
-        /*padding-top: 24px;*/
-        /*padding-bottom: 40px;*/
+
     }
         .grade__gallery {
             display: block;
-            /*align-items: flex-start;*/
-            /*justify-content: center;*/
-            /*gap: 24px;*/
         }
             .grade__preview {
                 margin-top: 24px;
@@ -47,10 +43,10 @@
                 margin-top: 0;
             }
                 .grade__image {
-                    /*vertical-align: top;*/
+
                 }
 
         .grade__description {
-            /*margin-top: 40px;*/
+
         }
 }
