@@ -7,34 +7,27 @@
 @import url("_html.css");
 @import url("_body.css");
 @import url("_browser.css");
-
 @import url("_container.css");
 @import url("_header.css");
 @import url("_code.css");
 @import url("_footer.css");
 @import url("_breadcrumbs.css");
-
 @import url("_nobr.css");
 @import url("_hide-scrollbar.css");
-
 @import url("_oboznach.css");
 @import url("_harakt.css");
 @import url("_rght.css");
-
 @import url("_link.css");
 @import url("_button.css");
 @import url("_wysiwyg.css");
-
 @import url("_mfp.css");
 @import url("_window.css");
 @import url("_requet.css");
-
 @import url("_intro.css");
 @import url("_catalog.css");
 @import url("_category.css");
 @import url("_product.css");
 @import url("_catalog-hint.css");
-
 @import url("_book.css");
 @import url("_tabs.css");
 @import url("_file-link.css");
@@ -49,3 +42,4 @@
 @import url("_contacts.css");
 @import url("_desktop-only.css");
 @import url("_smartphone-only.css");
+@import url("_search.css");
