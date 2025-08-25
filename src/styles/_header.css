@@ -48,6 +48,11 @@
         box-shadow: 0 4px 4px rgb(0 0 0 / 10%);
         background-color: #FFFFFF;
     }
+
+    .page__body--homepage .header__secondary {
+        border-bottom: none;
+    }
+
         .header__secondary-wrap {
             display: flex;
             align-items: flex-start;
