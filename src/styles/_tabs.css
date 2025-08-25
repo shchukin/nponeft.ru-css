@@ -19,7 +19,7 @@
             text-decoration: 1px underline dashed rgba(107 107 107 / 50%);
             text-underline-offset: 3px;
             transition: color var(--transition-hover),
-                        text-decoration-color var(--transition-hover)
+                        text-decoration-color var(--transition-hover);
         }
 
         .tabs__tag:hover {

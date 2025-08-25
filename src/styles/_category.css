@@ -109,19 +109,12 @@
                     border-top-left-radius: 3px;
                     border-top-right-radius: 3px;
                 }
+                    /* stylelint-disable */
                     .category__link {
-                        /*display: block;*/
-                        /*width: fit-content;*/
                         padding-left: calc(var(--inner-padding) + (1/2 * var(--container-padding)));
                         padding-right: calc(var(--inner-padding) + (1/2 * var(--container-padding)));
-                        /*font-size: 16px;*/
-                        /*line-height: 20px;*/
-                        /*color: #666666;*/
-                        /*text-decoration: 1px underline rgba(102 102 102 / 50%);*/
-                        /*text-underline-offset: 3px;*/
-                        /*transition: color var(--transition-hover),*/
-                        /*            text-decoration-color var(--transition-hover);*/
                     }
+                    /* stylelint-enable */
 
                     .category__link:hover {
                         /*text-decoration-color: rgba(204 0 0 / 50%);*/

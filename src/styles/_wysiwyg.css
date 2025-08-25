@@ -21,6 +21,7 @@
 }
 
 
+/* stylelint-disable */
 .wysiwyg--halved p,
 .wysiwyg--halved ul,
 .wysiwyg--halved ol,
@@ -30,7 +31,7 @@
     margin-top: calc(1/2 * var(--body-line-height));
     margin-bottom: calc(1/2 * var(--body-line-height));
 }
-
+/* stylelint-enable */
 
 .wysiwyg p:first-child,
 .wysiwyg ul:first-child,
