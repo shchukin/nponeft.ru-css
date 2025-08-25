@@ -50,12 +50,12 @@
             }
 
     .contacts__factory {
-        margin-top: 32px;
+        margin-top: 48px;
     }
         .contacts__factory-heading {
             color: #000000;
         }
 
         .contacts__factory-widget {
-            margin-top: 16px;
+            margin-top: 24px;
         }

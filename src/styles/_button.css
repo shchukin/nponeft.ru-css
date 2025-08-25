@@ -46,9 +46,9 @@
         }
 
 
-/*.button:hover {*/
-/*    background-color: var(--action-color-hover);*/
-/*}*/
+.button:hover {
+    filter: brightness(105%) contrast(105%);
+}
 
 
 .button:active {
