@@ -36,12 +36,14 @@
             position: relative;
             margin-left: 44px;
             padding-left: 44px;
+            margin-top: -10px;
+            margin-bottom: -10px;
         }
             .contacts__question::before {
                 content: "";
                 position: absolute;
                 left: 0;
-                top: 2px;
+                top: 12px;
                 width: 1px;
                 height: 18px;
                 background-color: #666666;
