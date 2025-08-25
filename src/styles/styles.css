@@ -52,3 +52,5 @@
 @import url("_red-star.css");
 @import url("_net-room.css");
 @import url("_contacts.css");
+@import url("_desktop-only.css");
+@import url("_smartphone-only.css");

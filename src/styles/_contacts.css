@@ -31,6 +31,13 @@
             line-height: 22px;
             color: #666666;
         }
+            .contacts__email-heading {
+
+            }
+
+            .contacts__email-link {
+
+            }
 
         .contacts__question {
             position: relative;
@@ -52,10 +59,99 @@
     .contacts__factory {
         margin-top: 48px;
     }
-        .contacts__factory-heading {
+        .contacts__factory-head {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            font-size: 16px;
+            line-height: 22px;
             color: #000000;
         }
+            .contacts__factory-heading {
+
+            }
+
+            .contacts__factory-address {
+
+            }
 
         .contacts__factory-widget {
             margin-top: 24px;
         }
+
+
+
+@media (width < 740px) {
+
+    .contacts {
+        padding-top: 16px;
+        /*padding-bottom: 60px;*/
+    }
+        .contacts__address {
+            display: block;
+            /*align-items: flex-start;*/
+            /*gap: 92px;*/
+            /*font-size: 16px;*/
+            /*line-height: 22px;*/
+            /*color: #000000;*/
+        }
+            .contacts__address-heading {
+                text-transform: none;
+                font-weight: bold;
+            }
+
+            .contacts__address-value {
+                margin-top: 4px;
+            }
+
+        .contacts__channels {
+            margin-top: 16px;
+            display: block;
+        }
+            .contacts__email {
+                display: block;
+                /*align-items: flex-start;*/
+                /*gap: 43px;*/
+                /*font-size: 16px;*/
+                /*line-height: 22px;*/
+                /*color: #666666;*/
+            }
+                .contacts__email-heading {
+                    font-weight: bold;
+                    color: #000000;
+                }
+
+                .contacts__email-link {
+                    margin-top: 2px;
+                }
+
+            .contacts__question {
+                margin-top: 24px;
+                /*position: relative;*/
+                margin-left: 0;
+                padding-left: 0;
+                margin-bottom: 0;
+            }
+                .contacts__question::before {
+                    display: none;
+                }
+
+        .contacts__factory {
+            margin-top: 32px;
+        }
+            .contacts__factory-head {
+                display: block;
+            }
+                .contacts__factory-heading {
+                    font-weight: bold;
+                }
+
+                .contacts__factory-address {
+                    margin-top: 4px;
+                }
+
+
+            .contacts__factory-widget {
+                /*margin-top: 24px;*/
+            }
+}
