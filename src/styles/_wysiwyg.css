@@ -100,4 +100,21 @@
     text-align: center;
 }
 
+.wysiwyg ul {
+    list-style: none;
+}
+    .wysiwyg ul li {
+        position: relative;
+    }
+        .wysiwyg ul li::before {
+            content: "";
+            position: absolute;
+            right: 100%;
+            margin-right: 16px;
+            top: 8px;
+            width: 7px;
+            height: 7px;
+            background-color: #8ECAAE;
+        }
+
 
